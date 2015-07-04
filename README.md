@@ -29,7 +29,7 @@ solutions, also the more cities the slower it'll be, since every generation is m
 and the exact same consideration is also true for *numCities*.
 *popSize* > *elitism* must be true, or the program will (probably) crash. Again, I didn't test this.
 
-For the nearest neighbor version (nn.hs) *popSize* > *numCities* + *elitims* must be true, or the
+For the nearest neighbor version (nn.hs) *popSize* > *numCities* + *elitism* must be true, or the
 program will (probably) crash.
 
 To compile the project, you will need these libraries:
